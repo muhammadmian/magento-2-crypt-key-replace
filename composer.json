@@ -1,0 +1,13 @@
+{
+    "name": "muhammadmian/magento-2-crypt-key-replace",
+    "description": "Replaces Main Crypt Key with one configured in admin",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MM\\CryptKeyReplace\\": ""
+        }
+    }
+}
