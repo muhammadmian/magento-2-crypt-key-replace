@@ -12,6 +12,7 @@
                 <field id="replacement_crypt_key" translate="label comment" type="text" sortOrder="20" showInDefault="1">
                     <label>Replacement Crypt Key</label>
                     <comment>The following Crypt Key will be used instead of default one configured in env.php. (setup:upgrade required if the value is added,remove or changed)</comment>
+                    <backend_model>MM\CryptKeyReplace\Model\Config\Backend\Crypt</backend_model>
                     <depends>
                         <field id="replace_crypt_key">1</field>
                     </depends>
